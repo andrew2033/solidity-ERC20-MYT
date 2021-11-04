@@ -20,7 +20,7 @@ interface ERC20Interface {
 }
  
  
-contract Cryptos is ERC20Interface{
+contract Mytri is ERC20Interface{
     string public name = "MYTRI";
     string public symbol = "MYT";
     uint public decimals = 0; //18 is very common
